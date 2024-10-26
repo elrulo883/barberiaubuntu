@@ -1,0 +1,106 @@
+/* styles.css */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Color de fondo suave */
+    color: #333; /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Disposición en columna */
+    min-height: 100vh; /* Asegurarse que ocupe toda la altura */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 400px; /* Ancho máximo para el formulario de login */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco para las secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border: 2px solid #b85c3c; /* Borde del contenedor */
+}
+
+/* Encabezado de bienvenida */
+h1 {
+    color: #b85c3c; /* Color marrón suave */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Títulos */
+h2, h3 {
+    color: #b85c3c; /* Color marrón suave */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo de botones */
+button {
+    background-color: #b85c3c; /* Color de fondo de los botones */
+    color: white; /* Color del texto en botones */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Efecto de transición */
+    display: block; /* Bloquear para ocupar el ancho completo */
+    margin: 10px auto; /* Espacio automático en los lados */
+    width: 100%; /* Ancho completo */
+}
+
+/* Efecto hover para botones */
+button:hover {
+    background-color: #a14d2c; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilo para enlaces */
+a {
+    color: #b85c3c; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Estilo de formulario */
+form {
+    margin-top: 20px; /* Espaciado superior para formularios */
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 5px; /* Espaciado superior */
+}
+
+/* Estilo para mensajes de error */
+.error {
+    color: red; /* Color rojo para errores */
+    font-weight: bold; /* Negrita */
+    text-align: center; /* Centrar texto */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center; /* Centrar texto */
+    margin-top: auto; /* Empujar hacia abajo */
+    padding: 10px 0; /* Espaciado interno */
+    background-color: #b85c3c; /* Color de fondo naranja */
+    color: white; /* Color del texto en el pie de página */
+    border-top: 1px solid #b85c3c; /* Línea superior */
+}
+
+/* Estilo para el encabezado del contenedor de login */
+.header {
+    background-color: #b85c3c; /* Color de fondo para el encabezado */
+    color: white; /* Color del texto del encabezado */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
